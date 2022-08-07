@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="cena" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaFim">
+   <children>
+      <AnchorPane prefHeight="366.0" prefWidth="600.0">
+         <children>
+            <SplitPane dividerPositions="0.43523316062176165" prefHeight="359.0" prefWidth="610.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="368.0" prefWidth="255.0">
+                     <children>
+                        <TableView fx:id="tableViewCandidato" layoutX="-1.0" layoutY="-3.0" prefHeight="359.0" prefWidth="268.0">
+                          <columns>
+                            <TableColumn fx:id="tableColumnNome" prefWidth="75.0" text="NOME" />
+                            <TableColumn fx:id="tableColumnNumero" prefWidth="75.0" text="NÚMERO" />
+                              <TableColumn fx:id="tableColumnPartido" prefWidth="117.0" text="PARTIDO" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="374.0" prefWidth="331.0">
+                     <children>
+                        <Label layoutX="52.0" layoutY="101.0" text="Nome:" />
+                        <Label fx:id="lbNome" layoutX="100.0" layoutY="101.0" prefHeight="17.0" prefWidth="108.0" />
+                        <Label layoutX="52.0" layoutY="136.0" text="Número:" />
+                        <Label fx:id="lbNumero" layoutX="109.0" layoutY="136.0" prefHeight="17.0" prefWidth="74.0" />
+                        <Label layoutX="52.0" layoutY="164.0" prefHeight="17.0" prefWidth="47.0" text="Partido:" />
+                        <Label fx:id="lbParitdo" layoutX="100.0" layoutY="164.0" prefHeight="17.0" prefWidth="66.0" />
+                        <Label layoutX="76.0" layoutY="14.0" text="Detalhes do Candidato" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="29.0" layoutY="250.0" mnemonicParsing="false" text="CADASTRAR" />
+                        <Button layoutX="139.0" layoutY="250.0" mnemonicParsing="false" text="EDITAR" />
+                        <Button layoutX="221.0" layoutY="250.0" mnemonicParsing="false" text="EXCLUIR" />
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

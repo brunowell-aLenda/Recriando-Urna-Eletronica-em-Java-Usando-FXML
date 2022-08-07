@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="cena" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLTelaControllerTesoureiro">
+   <children>
+      <AnchorPane prefHeight="353.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="c1" layoutX="94.0" layoutY="152.0" prefHeight="25.0" prefWidth="33.0" />
+            <TextField fx:id="c2" layoutX="133.0" layoutY="152.0" prefHeight="25.0" prefWidth="33.0" />
+            <Label layoutX="41.0" layoutY="156.0" text="NÚMERO:" />
+            <Label layoutX="407.0" layoutY="55.0" text="FOTO:" />
+            <Label layoutX="41.0" layoutY="198.0" text="NOME:" />
+            <Label layoutX="42.0" layoutY="229.0" text="PARTIDO:" />
+            <Label layoutX="41.0" layoutY="31.0" text="SEU VOTO PARA: " />
+            <Label layoutX="127.0" layoutY="55.0" text="TESOUREIRO" />
+            <Label fx:id="lbNomeCandidato" layoutX="93.0" layoutY="198.0" prefHeight="17.0" prefWidth="314.0" />
+            <Label fx:id="lbNomePartido" layoutX="102.0" layoutY="229.0" prefHeight="17.0" prefWidth="95.0" />
+            <Label layoutX="5.0" layoutY="272.0" prefHeight="17.0" prefWidth="594.0" text="--------------------------------------------------------------------------------------------------------------------------" />
+            <Label layoutX="43.0" layoutY="293.0" text="Aperte a Tecla:" />
+            <Label layoutX="96.0" layoutY="316.0" text="ESC para CORRIGIR o voto" />
+            <Label layoutX="96.0" layoutY="333.0" text="ENTER para CONFIRMAR o voto" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

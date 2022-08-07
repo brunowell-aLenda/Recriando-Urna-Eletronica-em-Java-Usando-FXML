@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="cena" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaFim">
+   <children>
+      <AnchorPane prefHeight="366.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="fim" layoutX="173.0" layoutY="76.0" prefHeight="166.0" prefWidth="362.0" text="FIM" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="96.0" />
+               </font></Label>
+            <TextField fx:id="pert" layoutX="166.0" layoutY="147.0" opacity="0.0" prefHeight="0.0" prefWidth="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
